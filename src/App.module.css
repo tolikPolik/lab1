@@ -1,0 +1,31 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro {
+  max-width: 1100px;
+  margin: 2rem auto 0;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.intro h2 {
+  color: #20352a;
+  font-size: 1.7rem;
+  margin-bottom: 0.6rem;
+}
+
+.intro p {
+  color: #66736b;
+  line-height: 1.6;
+}
+
+.footer {
+  margin-top: auto;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  color: #66736b;
+  font-size: 0.9rem;
+}

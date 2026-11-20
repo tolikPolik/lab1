@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.link {
+  color: #e5f3e9;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+@media (max-width: 520px) {
+  .nav {
+    gap: 0.8rem;
+    flex-wrap: wrap;
+  }
+}
